@@ -18,28 +18,36 @@ h2 {
 
 h1 {
     font-size: 65px;
+
 }
 
 h2 {
     font-size: 40px;
 }
 
+
+
 /*Lists*/
+/*list index*/
 .recipes-list {
     list-style-type: none;
     text-align: center;
     font-size: 25px;
 }
 
-.ingredients_list {
-
-    list-style-type: circle;
-}
-
 ul>li {
     color: #476970;
     font-weight: bold;
 }
+
+/*list ingredients*/
+
+.ingredients_list {
+    text-align: center;
+    font-size: large;
+    list-style-type: none;
+}
+
 
 /*Center list*/
 ol {
