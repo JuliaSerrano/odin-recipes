@@ -1,0 +1,105 @@
+/*General*/
+* {
+    background-color: #C8CBB4;
+}
+
+/*Paragraphs*/
+p {
+    text-align: center;
+    font-size: large;
+}
+
+/*Headings*/
+h1,
+h2 {
+    text-align: center;
+    color: #2F4858;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/*Lists*/
+.recipes-list {
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.ingredients_list {
+
+    list-style-type: circle;
+}
+
+ul>li {
+    color: #476970;
+    font-weight: bold;
+}
+
+/*Center list*/
+ol {
+    display: inline-block;
+    text-align: left;
+    font-size: large;
+}
+
+.centered_list {
+    text-align: center;
+}
+
+img {
+    /*center*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Images*/
+.img_main {
+    width: max-content;
+    height: auto;
+}
+
+.img_steps {
+    width: 600px;
+    height: auto;
+    margin: 5%;
+}
+
+/*Return Button */
+#previous_btn {
+    color: #146A60;
+    font-size: 25px;
+}
+
+/*LINKS*/
+a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #476970;
+}
+
+/* visited link */
+a:visited {
+    color: #2aaec6;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(203, 82, 143);
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: rgb(11, 11, 11);
+    text-decoration: underline;
+}
